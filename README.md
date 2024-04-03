@@ -78,6 +78,8 @@ Continuing on, once you have cloned the repository, enter the corresponding dire
 
 Two last steps are remaining! 
 Firstly, for one time only, once you have invited the bot to your Discord server, run ***node deploy-commands.js***. This way, we register our included slash commands to Discord.
-Lastly, run ***node bot.js*** and you are ready to go! The bot should appear as online within the server's members and you can execute its commands from any text-input within the Discord app's server.
+Lastly, run ***node bot.js*** and you are ready to go! The bot should appear as online within the server's members and you can execute its commands from any text-input within the Discord app's server. The 2 commands we can execute are:
+***/join***
+***/exit***
 
 > **Note:** If you cannot see the bot online after all this, remember to check for dedicated server & channel permissions that may come into conflict.
