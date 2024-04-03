@@ -51,7 +51,7 @@ Once you have FFmpeg installed and added to path, you will have to run the follo
     
 -  `-ab 128k`: Specifies the audio bitrate for the output MP3 file. In this case, it’s set to  **128 kbps** (kilobits per second). Remember that the choice of bitrate depends on your desired audio quality, file size constraints, and compatibility with playback devices. Adjust the parameters based on your specific needs!
     
--  `-f rtp rtp://127.0.0.1:1234`: This part of the command specifies the output format as  **RTP (Real-Time Transport Protocol)**. RTP is commonly used for streaming audio and video over networks. The destination address is  **127.0.0.1**  (localhost) on port  **1234**. You can assign whatever address you want, although I'd suggest you don't.
+-  `-f rtp rtp://127.0.0.1:1234`: This part of the command specifies the output format as  **RTP (Real-Time Transport Protocol)**. RTP is commonly used for streaming audio and video over networks. The destination address is  **127.0.0.1**  (localhost) on port  **1234**. You can assign whatever address you want, although I'd suggest you don't. If you do, you will also have to edit, accordingly, the ***join.js*** file, inside the commands folder of our repository.
 
 If everything goes right so far, you will be having your prefered audio source streaming from a virtual device, to a localhost address, that our Discord bot will use later on. The roadmap of our audio source will be looking kinda like this:
 
