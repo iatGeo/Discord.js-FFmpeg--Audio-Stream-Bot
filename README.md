@@ -17,7 +17,9 @@ The necessary steps to fully run this project are the following:
 - Have Node.js & NPM installed
 
 > **Note:** Project has been built on a Windows 11 pc, using Node.js v18.17.1 and NPM v9.6.7
-> **Note:** I have not yet included tutorials for the installations of FFmpeg & VB-CABLE, as well as creating a Discord bot. You can find plenty of related sources about them on the internet.
+> 
+> **Note:** I have not yet included tutorials for the installations of FFmpeg & VB-CABLE, as well as creating a Discord bot from their developer portal. You can find plenty of related sources about them on the internet.
+> 
 > > **Important:** You will need to add FFmpeg to path for this project to work!
 
 
@@ -78,8 +80,6 @@ Continuing on, once you have cloned the repository, enter the corresponding dire
 
 Two last steps are remaining! 
 Firstly, for one time only, once you have invited the bot to your Discord server, run ***node deploy-commands.js***. This way, we register our included slash commands to Discord.
-Lastly, run ***node bot.js*** and you are ready to go! The bot should appear as online within the server's members and you can execute its commands from any text-input within the Discord app's server. The 2 commands we can execute are:
-***/join***
-***/exit***
+Lastly, run ***node bot.js*** and you are ready to go! The bot should appear as online within the server's members and you can execute its commands from any text-input within the Discord app's server. The 2 commands we can execute are ***/join*** and ***/exit***
 
 > **Note:** If you cannot see the bot online after all this, remember to check for dedicated server & channel permissions that may come into conflict.
